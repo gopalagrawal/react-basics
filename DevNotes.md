@@ -45,3 +45,17 @@ git push -u origin master
 @import 'nprogress/nprogress';
 ```
 ---------------------------------------------
+
+### Enable Emmet in react files.
+
+- https://code.visualstudio.com/docs/editor/emmet
+- Ctrl+,  Search for Emmet in workplace Settings
+- Edit settings in json. Add: 
+```
+"emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+}
+```
+
+
+
