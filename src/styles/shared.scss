@@ -1,0 +1,11 @@
+$font-stack:    Helvetica, sans-serif;
+$primary-color: rgba(251, 255, 8, 0.952);
+
+.myclass {
+  font: 100% $font-stack; font-weight: bold;
+  background-color: blue;
+  color: $primary-color;
+  width: fit-content;
+  margin: 20px;
+  padding: 10px;
+}
