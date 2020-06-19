@@ -1,3 +1,5 @@
+// Usage: <Person name='Gopal' job='Comp Engineer' avatar='Gopal.png' />
+
 import React, { Component } from "react";
 import styles from "./Person.module.scss";
 

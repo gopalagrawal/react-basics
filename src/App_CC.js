@@ -1,3 +1,5 @@
+// Example of a class component
+
 import React, { Component } from "react";
 import "./App.scss";
 

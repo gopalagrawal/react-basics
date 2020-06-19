@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.scss";
 
-import Person from './Person/Person';
+import Form from './Form-1/Form';
 
 // Functional Component in this file.
 // For Class Component, see App_CC.js
@@ -9,8 +9,7 @@ import Person from './Person/Person';
 function App() {
   return (
     <div className="App">
-      <Person name='Gopal'    job='Comp Engineer'     avatar='Gopal.png' />
-      <Person name='Shweta'   job='German Teacher'    avatar='Shweta.png'/>
+      <Form />
     </div>
   );
 }

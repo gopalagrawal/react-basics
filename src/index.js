@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-// import App from './App_CC';
 import * as serviceWorker from './serviceWorker';
+
+import App from './App';    // Change this to App version you want to display
+
 
 ReactDOM.render( <App />, document.getElementById('root') );
 
